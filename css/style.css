@@ -109,6 +109,9 @@ body{
     margin-left: 20px;
     padding: 2px;
 }
+/* -----------
+    footer
+----------- */
 .footer{
     padding-top: 100px;
     margin-left: 0;
@@ -131,6 +134,7 @@ body{
     margin: 20px;
 }
 .social-icon{
+    color: #B9B9B9;
     font-size: 25px;
     margin: 15px;
     padding-left: 10px;
@@ -216,7 +220,6 @@ upcomig match
     .footer{
         height: auto;
         flex-direction: column;
-        margin: 0%;
     }
     .social-icon{
         padding-bottom: 10px;
@@ -234,55 +237,11 @@ upcomig match
 /* ----------------
 tablet devices
 ----------------- */
-/* @media screen and (min-widt: 688px) and (max-width:992) {
-    .header{
-        display: flex;
-        flex-direction: column;
-       height: 800px;
-    }
-    .content{
-        width: 90%;
-        height: auto;
-        margin: 15px;
-    }
-    .heading-banner{
-        position: relative;
-        right: 50%;
-        width: 100px;
-        height: 250px;
-        margin: 0;
-        padding: 0;
-    }
+@media screen and (min-widt: 688px) and (max-width:992px) {
     .blogs{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .container{
-        flex-direction: column;
-    }
-    .navbar{
-        background-color: white;
-    }
-    .navbar li{
-        border: 1px solid #ddd;
-        margin-left: 5px;
-    }
-    .footer{
-        height: auto;
-        flex-direction: column;
-        margin: 0%;
-    }
-    .social-icon{
-        padding-bottom: 10px;
-    }
-    .match{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .terms-condition{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-media queries end */
+/* media queries end */
