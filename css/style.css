@@ -12,17 +12,18 @@ body{
 }
 .header img{
     height: 427px;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 .content{
-    width: 350px;
-    padding: 60px 24px 100px 106px;
-    margin-left: 20px;
-    align-items: center;
-    justify-content: center;
+    width: 380px;
+    margin: auto;
+    margin-left: 150px;
+}
+.content h1{
+    font-size: 45px;
 }
 .link{
-    padding-top: 10px;
+    padding-top: 15px;
 }
 .link a{
     width: 100px;
@@ -43,8 +44,9 @@ body{
     margin-left: 100px;
     padding-right: 79px;
 }
-.nav-blogs{
+.container{
     display: flex;
+    margin-top: 10px;
 }
 .navbar{
     width: 312px;
@@ -60,27 +62,29 @@ body{
 }
 .navbar li{
     position: relative;
-    top: 20%;
-    left: 4%;
+    top: 18%;
+    left: 5%;
     width: 200px;
     text-align: center;
     background-color: white;
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
-    margin: 30px;
+    margin: 25px;
 
 }
 .blogs{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-left: 10px;
 }
 .blog{
-    width: 312px;
-    height: 362px;
     margin: 12px;
     border: 1px solid #ddd;
     border-radius: 10px 10px 0px 0px;
 
+}
+.blog img{
+    width: 100%;
 }
 .blog button{
     margin: 10px;
